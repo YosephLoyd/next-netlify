@@ -1,7 +1,7 @@
 import { Slider, AdvancedDynamicTexture, Button, StackPanel, Control } from '@babylonjs/gui';
 import { KeyboardEventTypes } from '@babylonjs/core/Events';
-import { PrepareCamera } from '@components/prepareCamera';
-import { xhrAll, loadLocalAsset, loadLocalAssetSync } from '@components/localLoaders';
+import { PrepareCamera } from '@modules/prepareCamera';
+import { xhrAll, loadLocalAsset, loadLocalAssetSync } from '@modules/localLoaders';
 
 export default async function Main(engine, scene, sceneNames) {
     let cameraChanged = true;
