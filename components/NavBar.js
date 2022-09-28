@@ -7,9 +7,9 @@ export default function NavBar() {
             <div className={styles.dropdown}>
                 <button className={styles.dropbtn}>Large Targets</button>
                 <div className={styles.dropdown_content}>
-                    <Link href="/" passHref>BCell</Link>
+                    <Link href="/" passHref>BCell Surface IgG</Link>
+                    <Link href="/eat_Wil2S" passHref>BCell Local SYK</Link>
                     <Link href="/eat_d3HL60" passHref>d3HL60</Link>
-                    <Link href="/eat_Wil2S" passHref>Wil2s</Link>
                 </div>
             </div>
         </div>

@@ -1,13 +1,13 @@
 import Layout from '@components/layout';
 import Viewer from '@components/Viewer';
 
-export default function LocalViewer() {
+export default function Home() {
     return (
         <Layout title={'Babylon-Viewer'}>
-            <strong>Surface Distance and IgG Intensity</strong>
-            <Viewer canvasId={'renderCanvas'} scenesRoot={'https://cdn.glitch.global/'} filePrefix={'6be17edd-dcbb-423e-9d69-f82f3a6e02df/EatWil_'} startNum={19} numFiles={30} />
+            <strong>Interactive Isosurface Viewer</strong>
+            <Viewer canvasId={'renderCanvas'} startNum={1} numFiles={100} />
         </Layout>
     )
 }
 
-export { LocalViewer }
+export { Home }
