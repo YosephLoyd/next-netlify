@@ -1,8 +1,8 @@
-# [build]
-#   command = "npm run build"
-#   publish = ".next"
-
 [build]
+    command = "npm run build"
+    publish = ".next"
+
+[export]
     command = "npm run export"
     publish = "out"
 
